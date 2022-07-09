@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap');
+
+@layer base {
+    body{
+        @apply font-[Fira+Sans]
+    }
+}
+
+.content-div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+.overlay-span{
+    height: 620px;
+    width: 100%;
+    background: rgba(33, 37, 41, 0.85);
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
+
+.overlay-spantwo{
+    height: 60vh;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.overlay-spanthree{
+    height: 100%;
+    width: 100%;
+    background: rgba(7, 5, 2, 0.7);
+    position: absolute;
+    left: 0;
+}
